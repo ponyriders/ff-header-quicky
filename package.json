@@ -1,0 +1,101 @@
+{
+    "name": "ff-header-quicky",
+    "title": "ff-header-quicky",
+    "id": "jid1-6fE3wGl0r93R0g",
+    "description": "Switch the value of an HTTP Header quickly",
+    "author": "Lars Kreisz",
+    "license": "MPL 2.0",
+    "version": "0.1.1",
+    "preferences": [
+        {
+            "name": "domain_1",
+            "title": "1) Domain Regex",
+            "description": "www\\.example\\.com\n.*\\.example\\.com\nlocalhost:8000",
+            "type": "string",
+            "value": ".*\\\\.example\\\\.com"
+        },
+        {
+            "name": "name_1",
+            "title": "1) Name of the HTTP Header",
+            "description": "Django uses REMOTE_USER by default",
+            "type": "string",
+            "value": "REMOTE_USER"
+        },
+        {
+            "name": "values_1",
+            "title": "1) Values of the HTTP Header",
+            "description": "Pipe seperated list of values you want to switch between: admin|hannes|berta",
+            "type": "string",
+            "value": "admin|hannes|berta"
+        },
+
+
+        {
+            "name": "domain_2",
+            "title": "2) Domain Regex",
+            "description": "www\\.example\\.com\n.*\\.example\\.com\nlocalhost:8000",
+            "type": "string",
+            "value": ""
+        },
+        {
+            "name": "name_2",
+            "title": "2) Name of the HTTP Header",
+            "description": "Django uses REMOTE_USER by default",
+            "type": "string",
+            "value": ""
+        },
+        {
+            "name": "values_2",
+            "title": "2) Values of the HTTP Header",
+            "description": "Pipe seperated list of values you want to switch between: admin|hannes|berta",
+            "type": "string",
+            "value": ""
+        },
+
+
+        {
+            "name": "domain_3",
+            "title": "3) Domain Regex",
+            "description": "www\\.example\\.com\n.*\\.example\\.com\nlocalhost:8000",
+            "type": "string",
+            "value": ""
+        },
+        {
+            "name": "name_3",
+            "title": "3) Name of the HTTP Header",
+            "description": "Django uses REMOTE_USER by default",
+            "type": "string",
+            "value": ""
+        },
+        {
+            "name": "values_3",
+            "title": "3) Values of the HTTP Header",
+            "description": "Pipe seperated list of values you want to switch between: admin|hannes|berta",
+            "type": "string",
+            "value": ""
+        },
+
+
+        {
+            "name": "domain_4",
+            "title": "4) Domain Regex",
+            "description": "www\\.example\\.com\n.*\\.example\\.com\nlocalhost:8000",
+            "type": "string",
+            "value": ""
+        },
+        {
+            "name": "name_4",
+            "title": "4) Name of the HTTP Header",
+            "description": "Django uses REMOTE_USER by default",
+            "type": "string",
+            "value": ""
+        },
+        {
+            "name": "values_4",
+            "title": "4) Values of the HTTP Header",
+            "description": "Pipe seperated list of values you want to switch between: admin|hannes|berta",
+            "type": "string",
+            "value": ""
+        }
+    ]
+}
